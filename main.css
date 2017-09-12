@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+#wrapper {
+  width: 350px;
+  min-height: 350px;
+  margin: 120px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+#input {
+  margin-bottom: 40px;
+}
+
+#input label {
+  display: block;
+  margin: 20px 0;
+  color: #133c55;
+}
+
+#numInput {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 3px;
+  box-shadow: none;
+  border: 1px solid #386fa4;
+  color: #133c55;
+}
+
+#generateBtn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 15px 20px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  font-size: 15px;
+  background-color: #386fa4;
+  color: #fff;
+}
+
+#results p {
+  color: #133c55;
+}
+
+#primes {
+  padding: 15px 0;
+  border-bottom: 1px solid #386fa4;
+}
